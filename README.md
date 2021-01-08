@@ -4,6 +4,7 @@ Probably most unefficent and wrong way to solve a hard maths question.
 ## Question: 
 In a school, every student has a student number starting from 00000 up to 99999. And student numbers of two radndom students have at least two different digits. How many students there are in this school?
 
+## What I did:
 What I understand is every scudent number will have 2 different digits from any other. For example, 00000 and 00011 is suitable. Because ones-digit and tens-digit are different. but 00000 and 00001 can't be. Because They have only ones-digit different. 
 
 The markscheme says there are 10,000 students in school. 
