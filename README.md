@@ -20,7 +20,7 @@ If you find a way to solve this question the way it is supposed to and prove me 
 I have finally solved the problem. (22/06/2022)
 I have used mathematical way instead of computer science way:
 
-# If we just consider last 2 digits:
+### If we just consider last 2 digits:
 00000
 00011
 00022
@@ -28,11 +28,11 @@ I have used mathematical way instead of computer science way:
   .
   .
 00099
-This produces 10 combinations.
+### This produces 10 combinations.
 
 
-And of course numbers in the case are just symbols, so 0 at 3rd digit doesnt have much significance.
-So the patterns:
+### And of course numbers in the case are just symbols, so 0 at 3rd digit doesnt have much significance.
+### So the patterns:
 00000,  00100
 00011,  00111
 00022,  00122
@@ -40,7 +40,7 @@ So the patterns:
   .       .
   .       .
 00099,  00199
-can exist simultaneously.
-Hence 3rd digit can be changed with any number. So 10 * 10 different combinations.
+### can exist simultaneously.
+### Hence 3rd digit can be changed with any number. So 10 * 10 different combinations.
 
-Same principle applies to 2nd digit, and 1st digit. Hence 10 * 10 * 10 * 10 = 10,000 different combinations.
+## Same principle applies to 2nd digit, and 1st digit. Hence 10 * 10 * 10 * 10 = 10,000 different combinations.
